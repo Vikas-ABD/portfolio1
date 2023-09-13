@@ -47,11 +47,12 @@ const About = () =>{
          variants={fadeIn("", "", 0.1, 1)}
          className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
        >
-         I'm a skilled software developer with experience in HTML,CSS and
-         JavaScript, and expertise in frameworks like React, Node.js, and
-         Three.js. I'm a quick learner and collaborate closely with clients to
-         create efficient, scalable, and user-friendly solutions that solve
-         real-world problems. Let's work together to bring your ideas to life!
+         I'm a dedicated professional with extensive experience in developing 
+         and deploying projects encompassing ML, DL, IoT, Computer Vision, including 
+         object detection using Deep Learning. My expertise extends to MATLAB and Simulink, 
+         where I specialize in IoT integration within Simulink for autonomous driving applications.
+         Leveraging my skills, I create innovative solutions for real-world challenges, using Azure
+         for application deployment and IoT development. Let's work together to bring your ideas to life!
        </motion.p>
        <div className='mt-20 flex flex-wrap gap-10'>
          {services.map((service, index) => (

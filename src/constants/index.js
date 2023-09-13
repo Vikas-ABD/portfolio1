@@ -1,25 +1,28 @@
 import {
+    
+    simulink,
+    raspi,
+    mlops,
+    keras,
+    iot,
+    deep,
+    digital_twin,
+    computer_vision,
+    cicd,
+    azure,
+    azure_iot,
     mobile,
     codepen,
+    flask,
     ecommerce,
+    iiit,
     todolist,
     backend,
     creator,
     web,
     MachineLearning,
-    javascript,
-    typescript,
-    onestop,
-    html,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    internship_studio,
-    internshala,
-    threejs,
+    
     
   } from "../assets";
   
@@ -40,64 +43,103 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "ML Engineer",
       icon: web,
     },
     {
-      title: "Front-end Developer",
+      title: "Computer Vision Using Deep Learning",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "IOT Developer",
       icon: backend,
     },
     {
-      title: "ML Engineer",
+      title: "Matlab/Simulink Expertise",
       icon: creator,
     },
   ];
   
   const technologies = [
+  
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Simulink",
+      icon: simulink,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Keras",
+      icon: keras,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Raspberry Pi",
+      icon: raspi,
     },
+    {
+      name: "MLOps",
+      icon: mlops,
+    },
+    {
+      name: "IoT",
+      icon: iot,
+    },
+    {
+      name: "Deep Learning",
+      icon: deep,
+    },
+    {
+      name: "Digital Twin",
+      icon: digital_twin,
+    },
+    {
+      name: "Computer Vision",
+      icon: computer_vision,
+    },
+    {
+      name: "CICD",
+      icon: cicd,
+    },
+    {
+      name: "Azure",
+      icon: azure,
+    },
+    {
+      name: "Azure IoT",
+      icon: azure_iot,
+    },
+    {
+      name: "Flask",
+      icon: flask,
+    },
+
+
     // {
     //   name: "TypeScript",
     //   icon: typescript,
     // },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "React JS",
+    //   icon: reactjs,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Machine Learning",
       icon: MachineLearning,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -106,45 +148,32 @@ import {
   
   const experiences = [
     {
-      title: "Website Design",
-      company_name: "Internship Studio",
-      icon: internship_studio,
+      title: "Computer Vision Intern",
+      company_name: "IIIT SRICITY",
+      icon: iiit,
       iconBg: "#383E56",
-      date: "May 2022 - June 2022",
+      date: "May 2023 - July 2023",
       points: [
-        "Completed 5-week internship at Internship Studio focused on Website Design.",
-        "Developed proficiency in HTML, CSS, JavaScript, and Bootstrap.",
-        "Designed and built an e-commerce website as part of the internship project.",
-        "Gained hands-on experience in creating engaging and user-friendly web interfaces.",
+        "Advanced Aerial Mapping (AAM) Rider:  Yield Detection System for Mango Farms using UAVs",
+        "Develop a solution for yield detection in mango farms using UAVs and advanced technologies like IoTs and Computer Vision using Deep Learning..",
+        "Process collected data with object detection techniques to accurately identify mango fruits and measure yield in mango farms.",
+        "Working on this innovative project during my internship, focused on automated helipad detection and drone charging using deep learning technology."
       ],
     },
     {
-      title: "Bhumi",
-      company_name: "INTERNSHALA",
-      icon: internshala,
+      title: "Research Assistant Intern",
+      company_name: "IIIT SRICITY",
+      icon: iiit,
       iconBg: "#E6DEDD",
-      date: "June 2021 - July 2021",
+      date: "May 2022 - July 2022",
       points: [
-        "Actively participating in fundraising campaigns and initiatives to support COVID relief efforts.",
-        "Assisting in organizing and promoting fundraising events, both online and offline.",
-        "Engaging with potential donors and explaining the purpose and impact of the fundraising activities.",
-        "Collaborating with the team to develop innovative strategies for maximizing donations and reaching fundraising goals.",
+        "Diffraction by a straight edge in a curved screen and Implementing MOM(Method Of Moment) on half wave dipole.",
+        "Deriving the field equations and implementing in MATLAB.",
+        "Analyzing the field pattern and radiation of a half-wave dipole antenna using the Method of Moments (MoM) in MATLAB."
       ],
     },
 
-    {
-      title: "Wissenaire IIT Bhubaneswar",
-      company_name: "1Stop",
-      icon: onestop,
-      iconBg: "#383E56",
-      date: "Present",
-      points: [
-        "Interning at 1Stop in association with Wissenaire IIT Bhubaneswar",
-        "Gaining practical experience through industrial training and live projects.",
-        "Participating in internships and preparing for future placements.",
-        "Enhancing skills through mock tests for career advancement.",
-      ],
-    },
+ 
    
   ];
   
