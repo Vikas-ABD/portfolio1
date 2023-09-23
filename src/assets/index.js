@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+
 import logo from "./logo.jpeg"
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -16,7 +16,7 @@ import deep from "./tech/deep.jpeg";
 import digital_twin from "./tech/digital_twin.jpeg";
 import iot from "./tech/iot.jpeg";
 import keras from "./tech/keras.jpeg";
-import matlab from "./tech/matlab.jpeg";
+
 import mlops from "./tech/mlops.jpeg";
 import raspi from "./tech/raspi.jpeg";
 import simulink from "./tech/simulink.jpeg";
@@ -24,16 +24,22 @@ import flask from "./tech/flask.jpeg";
 import git from "./tech/git.png";
 import MachineLearning from "./tech/ml.jpg"
 
-
+import emg from  "./emg.jpg";
+import drone from "./drone.jpeg";
 import iiit from "./company/iiit.png";
-
+import rainfall from "./rainfall.jpg";
 import ecommerce from "./ecommerce.png";
 import todolist from "./todolist.png";
 import codepen from "./codepen.png";
-
-
+import pothole from "./pothole.png"
+import car from "./car.jpeg"
+import segmentation from "./segmentation.png"
 export {
-  matlab,
+  car,
+  rainfall,
+  drone,
+  emg,
+  segmentation,
   simulink,
   flask,
   raspi,
@@ -60,4 +66,5 @@ export {
   ecommerce,
   todolist,
   iiit,
+  pothole,
 };

@@ -1,5 +1,10 @@
 import {
-    
+    car,
+    rainfall,
+    drone,
+    emg,
+    segmentation,
+    pothole,
     simulink,
     raspi,
     mlops,
@@ -22,6 +27,7 @@ import {
     web,
     MachineLearning,
     git,
+    
     
     
   } from "../assets";
@@ -94,18 +100,18 @@ import {
       name: "Computer Vision",
       icon: computer_vision,
     },
-    {
-      name: "CICD",
-      icon: cicd,
-    },
+    // {
+    //   name: "CICD",
+    //   icon: cicd,
+    // },
     {
       name: "Azure",
       icon: azure,
     },
-    {
-      name: "Azure IoT",
-      icon: azure_iot,
-    },
+    // {
+    //   name: "Azure IoT",
+    //   icon: azure_iot,
+    // },
     {
       name: "Flask",
       icon: flask,
@@ -135,15 +141,15 @@ import {
     {
       name: "Machine Learning",
       icon: MachineLearning,
-    },
+    },    
     // {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
   ];
   
   const experiences = [
@@ -180,58 +186,128 @@ import {
   
   
   const projects = [
+    
     {
-      name: "Codepen clone",
+      name: "Pothole Detection",
       description:
-        "Web-based platform that allows users to write, edit, and share HTML, CSS, and JS code snippets. It provides a user-friendly interface for developers to experiment with code.",
+        "Pothole Detection Using YOLOv8 and Flask is a cutting-edge solution enhancing road safety. By integrating YOLOv8's object detection capabilities with Flask, it offers real-time pothole detection through a user-friendly web app, mitigating accidents and improving road maintenance.",
       tags: [
         {
-          name: "react",
+          name: "Deep Learning",
           color: "blue-text-gradient",
         },
-        {
-          name: "Material UI",
-          color: "green-text-gradient",
-        },
-      
-      ],
-      image: codepen,
-      source_code_link: "https://github.com/Isheka123/codepen-clone",
-    },
-    {
-      name: "Ecommerce",
-      description:
-        "Web-based platform for seamless e-commerce. Discover, explore, and purchase products effortlessly with user-friendly features and a secure checkout process.",
-      tags: [
         {
           name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Bootstrap",
           color: "green-text-gradient",
         },
+        {
+          name: "Flask",
+          color: "blue-text-gradient",
+        },
+
+      
       ],
-      image: ecommerce,
-      source_code_link: "https://github.com/Isheka123/Ecommerce",
+      image: pothole,
+      source_code_link: "https://github.com/Vikas-ABD/Projects/tree/main/Computer%20Vision%20using%20Deep%20Learning%20%26%20Machine%20Learning/pothole_detection_using_YOLOV8",
     },
     {
-      name: "ToDo List",
+      name: "Smart Car with Live Video Object Detection ",
       description:
-        "My TodoList web application, enabling users to efficiently manage and organize their tasks. With a user-friendly interface and robust functionality, it simplifies task management and boosts productivity.",
+        "Cutting-edge wireless-controlled smart car by integrating Raspberry Pi, Simulink, and YOLOv3 for live video object detection and live video stream over wifi to mobile phone and edge detection of video stream.",
       tags: [
         {
-          name: "nodejs",
+          name: "Simulink",
           color: "blue-text-gradient",
         },
         {
-          name: "ejs",
+          name: "Deep Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Raspberry pi",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: car,
+      source_code_link: "https://github.com/Vikas-ABD/Projects/tree/main/Matlab%20%26%20Simulink/Wireless-Controlled%20Smart%20Car%20with%20Live%20Video%20Object%20Detection%20via%20Raspberry%20Pi",
+    },
+    {
+      name: "segmentation using DL",
+      description:
+        "Developed multiple deep learning models including U-Net+EfficientNet, and CSPDarknet-U-Net hybrids for image segmentation tasks across diverse datasets. Created individual Flask web applications for each model to offer easy online access to object segmentation capabilities",
+      tags: [
+        {
+          name: "Deep Learning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Flask",
           color: "green-text-gradient",
         },
       ],
-      image: todolist,
-      source_code_link: "https://github.com/Isheka123/todolist",
+      image: segmentation,
+      source_code_link: "https://github.com/Vikas-ABD/Projects/tree/main/Computer%20Vision%20using%20Deep%20Learning%20%26%20Machine%20Learning/segmentation_using_UNET",
     },
+    {
+      name: "Rainfall Forecasting Using MATLAB",
+      description:
+        "MATLAB's Econometrics Toolbox offers versatile tools like ARIMA and VAR models for rainfall forecasting, enabling accurate predictions by analyzing historical data. It also supports Bayesian analysis to explore relationships with environmental factors, aiding decisions in agriculture, water management, and disaster response.",
+      tags: [
+        {
+          name: "matlab",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Statistics",
+          color: "green-text-gradient",
+        },
+      ],
+      image: rainfall,
+      source_code_link: "https://in.mathworks.com/matlabcentral/fileexchange/128153-rainfall-forecasting-using-matlab?s_tid=prof_contriblnk",
+    },
+    {
+      name: "Plastic_detection_using drone",
+      description:
+        "I Created a drone-based system that utilizes a Raspberry Pi to run a model for plastic detection on the ground. When excess plastic is identified, the data is transmitted via a 4G dongle to Azure IoT Hub, enabling real-time visualization and analysis using Power BI, enhancing environmental monitoring and management.",
+      tags: [
+        {
+          name: "IOT",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Deep Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Azure",
+          color: "blue-text-gradient",
+        },
+
+      
+      ],
+      image: drone,
+      source_code_link: "https://github.com/Vikas-ABD/plastic_detection_using_drone.git",
+    },
+    {
+      name: "Human Activity classification",
+      description:
+        "In this project, I visualize EMG signals from various human body activities, extracting features from 8 muscle sensors. Employing ML algorithms like KNN and neural networks, we achieve an impressive average accuracy of approximately 70% across 20 different classes, showcasing effective EMG signal classification for diverse applications.",
+      tags: [
+        {
+          name: "Matlab",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Deep Learning/ML",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: emg,
+      source_code_link: "https://github.com/Vikas-ABD/Matlab_EMG_classification.git",
+    }
+
+
   ];
   
   export { services, technologies, experiences, projects };

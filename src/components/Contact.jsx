@@ -36,12 +36,12 @@ const Contact = () => {
         
         {
           from_name: form.name,
-          to_name: "Kavya Sai Isheka Yakkala",
+          to_name: "VIKAS CHELLURU",
           from_email: form.email,
-          to_email: "kavyasaiisheka.y20@iiits.in",
+          to_email: "vikas.c20@iiits.in",
           message: form.message,
         },
-        '3_shl3pajsfU1g7Hs'
+        'q3cDFE9W_bhBTk8Kznq-Y'
       )
       .then(
         () => {
