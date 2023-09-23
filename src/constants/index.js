@@ -3,6 +3,8 @@ import {
     rainfall,
     drone,
     emg,
+    baby,
+    coco,
     segmentation,
     pothole,
     simulink,
@@ -305,7 +307,54 @@ import {
       ],
       image: emg,
       source_code_link: "https://github.com/Vikas-ABD/Matlab_EMG_classification.git",
+    },
+    {
+      name: "Baby Identification using DL/CV",
+      description:
+        "I developed a system leveraging deep learning and computer vision to extract features from images, enabling the identification of missing babies by comparing input images with a database of stored data. The project also includes a user-friendly web interface created using Flask.",
+      tags: [
+        {
+          name: "Deep Learning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Computer vision",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Flask",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: baby,
+      source_code_link: "https://github.com/Vikas-ABD/Projects/tree/main/Computer%20Vision/baby_identification_using_DL_and_CV",
+    },
+    
+    {
+      name: "coco-cola level and state detection",
+      description:
+        "I designed a mobile app that utilizes SSD MobileNet for real-time detection of Coca-Cola levels and ceiling conditions, offering valuable industrial utility. This innovative solution simplifies monitoring and maintenance tasks, enhancing efficiency and accuracy in industrial settings.",
+      tags: [
+        {
+          name: "Deep Learning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tensorflow",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mobile app",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: coco,
+      source_code_link: "https://github.com/Vikas-ABD/coco-cola_level_state_detection.git",
     }
+
+
 
 
   ];

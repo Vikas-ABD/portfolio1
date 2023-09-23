@@ -24,6 +24,8 @@ import flask from "./tech/flask.jpeg";
 import git from "./tech/git.png";
 import MachineLearning from "./tech/ml.jpg"
 
+import coci from "./coco.jpg";
+import baby from "./baby.jpg";
 import emg from  "./emg.jpg";
 import drone from "./drone.jpeg";
 import iiit from "./company/iiit.png";
@@ -39,6 +41,8 @@ export {
   rainfall,
   drone,
   emg,
+  baby,
+  coci,
   segmentation,
   simulink,
   flask,
