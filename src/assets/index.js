@@ -24,7 +24,10 @@ import flask from "./tech/flask.jpeg";
 import git from "./tech/git.png";
 import MachineLearning from "./tech/ml.jpg"
 
-import coci from "./coco.jpg";
+import traffic from "./traffic.jpg";
+import dog from "./dog.jpg";
+import rasp from "./raspi.jpeg";
+import coco from "./coco.jpg";
 import baby from "./baby.jpg";
 import emg from  "./emg.jpg";
 import drone from "./drone.jpeg";
@@ -42,7 +45,10 @@ export {
   drone,
   emg,
   baby,
-  coci,
+  rasp,
+  coco,
+  dog,
+  traffic,
   segmentation,
   simulink,
   flask,

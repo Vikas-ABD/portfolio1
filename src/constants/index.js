@@ -5,6 +5,9 @@ import {
     emg,
     baby,
     coco,
+    rasp,
+    dog,
+    traffic,
     segmentation,
     pothole,
     simulink,
@@ -352,6 +355,68 @@ import {
       ],
       image: coco,
       source_code_link: "https://github.com/Vikas-ABD/coco-cola_level_state_detection.git",
+    },
+    {
+      name: "DR Analysis with Raspi and NodeMCU",
+      description:
+        " This project thoroughly analyzes data rates using Raspberry Pi and NodeMCU devices. By examining distance-related variations and WiFi dongle transmitter capabilities, it provides comprehensive insights for optimizing wireless connectivity in diverse applications.",
+      tags: [
+        {
+          name: "IOT",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Raspberry pi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "networking",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: raspi,
+      source_code_link: "https://github.com/Vikas-ABD/IOT-internet-of-Things/tree/main/raspi_to_raspi_video_stream",
+    },
+    {
+      name: "Object detection in simulink",
+      description:
+        "I implemented real-time cat and dog detection using the YOLO object detection model in MATLAB. The project involved data annotation with the MATLAB Image Labeler tool, enabling efficient and accurate detection of cats and dogs in images within a Simulink environment.",
+      tags: [
+        {
+          name: "simulink",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Deep Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "matlab",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: dog,
+      source_code_link: "https://github.com/Vikas-ABD/object_detection_using_simulink.git",
+    },
+    {
+      name: "Traffic Signs Classification web app",
+      description:
+        " I demonstrated my expertise in deep learning and web development using the Flask framework. I trained three top-performing models for traffic sign classification, allowing users to select their preferred model to classify road signs through a user-friendly web interface.",
+      tags: [
+        {
+          name: "Flask",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Deep Learning",
+          color: "green-text-gradient",
+        }
+      
+      ],
+      image: traffic,
+      source_code_link: "https://github.com/Vikas-ABD/traffic_signs_classification.git",
     }
 
 
